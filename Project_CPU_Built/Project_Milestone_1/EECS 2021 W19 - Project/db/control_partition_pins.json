@@ -1,0 +1,1017 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "inc_pc",
+					"strict" : false
+				},
+				{
+					"name" : "load_inst",
+					"strict" : false
+				},
+				{
+					"name" : "dec_en",
+					"strict" : false
+				},
+				{
+					"name" : "mem_rd",
+					"strict" : false
+				},
+				{
+					"name" : "regwrite",
+					"strict" : false
+				},
+				{
+					"name" : "wd[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[3]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[4]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[5]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[6]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[7]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[8]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[9]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[10]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[11]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[12]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[13]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[14]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[15]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[16]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[17]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[18]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[19]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[20]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[21]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[22]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[23]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[24]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[25]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[26]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[27]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[28]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[29]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[30]",
+					"strict" : false
+				},
+				{
+					"name" : "wd[31]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUenable",
+					"strict" : false
+				},
+				{
+					"name" : "mem_wr",
+					"strict" : false
+				},
+				{
+					"name" : "jump",
+					"strict" : false
+				},
+				{
+					"name" : "branch",
+					"strict" : false
+				},
+				{
+					"name" : "data2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[16]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[17]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[18]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[19]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[20]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[21]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[22]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[23]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[24]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[25]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[26]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[27]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[28]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[29]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[30]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[31]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUcommand[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUcommand[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUcommand[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUcommand[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUcommand[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[7]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[8]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[9]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[10]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[11]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[12]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[13]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[14]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[15]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[16]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[16]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[17]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[17]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[18]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[18]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[19]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[19]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[20]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[20]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[21]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[21]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[22]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[22]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[23]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[23]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[23]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[24]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[24]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[25]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[25]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[26]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[26]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[27]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[27]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[28]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[28]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[29]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[29]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[30]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[30]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_addr_plus[31]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUresult[31]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_data[31]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[16]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[17]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[18]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[19]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[20]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[21]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[22]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[23]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[23]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[24]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[25]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[26]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[27]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[28]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[29]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[30]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_data2[31]",
+					"strict" : false
+				},
+				{
+					"name" : "rd2[31]",
+					"strict" : false
+				},
+				{
+					"name" : "execution[2]",
+					"strict" : false
+				},
+				{
+					"name" : "execution[0]",
+					"strict" : false
+				},
+				{
+					"name" : "execution[7]",
+					"strict" : false
+				},
+				{
+					"name" : "execution[8]",
+					"strict" : false
+				},
+				{
+					"name" : "execution[9]",
+					"strict" : false
+				},
+				{
+					"name" : "execution[10]",
+					"strict" : false
+				},
+				{
+					"name" : "execution[1]",
+					"strict" : false
+				},
+				{
+					"name" : "execution[4]",
+					"strict" : false
+				},
+				{
+					"name" : "execution[3]",
+					"strict" : false
+				},
+				{
+					"name" : "execution[5]",
+					"strict" : false
+				},
+				{
+					"name" : "execution[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "ALUzero",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

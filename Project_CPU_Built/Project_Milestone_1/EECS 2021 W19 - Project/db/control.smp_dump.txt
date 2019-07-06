@@ -1,0 +1,9 @@
+
+State Machine - |control|state
+Name state.change_pc state.writeback state.executing state.control state.decoding state.000 
+state.000 0 0 0 0 0 0 
+state.decoding 0 0 0 0 1 1 
+state.control 0 0 0 1 0 1 
+state.executing 0 0 1 0 0 1 
+state.writeback 0 1 0 0 0 1 
+state.change_pc 1 0 0 0 0 1 

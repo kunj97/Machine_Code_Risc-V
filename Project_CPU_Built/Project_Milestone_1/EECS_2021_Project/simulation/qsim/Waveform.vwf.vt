@@ -1,0 +1,406 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "03/19/2019 12:04:20"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          ALU
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module ALU_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg ALUenable;
+reg [4:0] command;
+reg [31:0] data1;
+reg [31:0] data2;
+// wires                                               
+wire [31:0] ALUresult;
+wire ALUzero;
+
+// assign statements (if any)                          
+ALU i1 (
+// port map - connection between master ports and signals/registers   
+	.ALUenable(ALUenable),
+	.ALUresult(ALUresult),
+	.ALUzero(ALUzero),
+	.command(command),
+	.data1(data1),
+	.data2(data2)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// ALUenable
+initial
+begin
+	ALUenable = 1'b0;
+end 
+// command[ 4 ]
+initial
+begin
+	command[4] = 1'b0;
+end 
+// command[ 3 ]
+initial
+begin
+	command[3] = 1'b0;
+end 
+// command[ 2 ]
+initial
+begin
+	command[2] = 1'b0;
+end 
+// command[ 1 ]
+initial
+begin
+	command[1] = 1'b0;
+end 
+// command[ 0 ]
+initial
+begin
+	command[0] = 1'b0;
+end 
+// data1[ 31 ]
+initial
+begin
+	data1[31] = 1'b0;
+end 
+// data1[ 30 ]
+initial
+begin
+	data1[30] = 1'b0;
+end 
+// data1[ 29 ]
+initial
+begin
+	data1[29] = 1'b0;
+end 
+// data1[ 28 ]
+initial
+begin
+	data1[28] = 1'b0;
+end 
+// data1[ 27 ]
+initial
+begin
+	data1[27] = 1'b0;
+end 
+// data1[ 26 ]
+initial
+begin
+	data1[26] = 1'b0;
+end 
+// data1[ 25 ]
+initial
+begin
+	data1[25] = 1'b0;
+end 
+// data1[ 24 ]
+initial
+begin
+	data1[24] = 1'b0;
+end 
+// data1[ 23 ]
+initial
+begin
+	data1[23] = 1'b0;
+end 
+// data1[ 22 ]
+initial
+begin
+	data1[22] = 1'b0;
+end 
+// data1[ 21 ]
+initial
+begin
+	data1[21] = 1'b0;
+end 
+// data1[ 20 ]
+initial
+begin
+	data1[20] = 1'b0;
+end 
+// data1[ 19 ]
+initial
+begin
+	data1[19] = 1'b0;
+end 
+// data1[ 18 ]
+initial
+begin
+	data1[18] = 1'b0;
+end 
+// data1[ 17 ]
+initial
+begin
+	data1[17] = 1'b0;
+end 
+// data1[ 16 ]
+initial
+begin
+	data1[16] = 1'b0;
+end 
+// data1[ 15 ]
+initial
+begin
+	data1[15] = 1'b0;
+end 
+// data1[ 14 ]
+initial
+begin
+	data1[14] = 1'b0;
+end 
+// data1[ 13 ]
+initial
+begin
+	data1[13] = 1'b0;
+end 
+// data1[ 12 ]
+initial
+begin
+	data1[12] = 1'b0;
+end 
+// data1[ 11 ]
+initial
+begin
+	data1[11] = 1'b0;
+end 
+// data1[ 10 ]
+initial
+begin
+	data1[10] = 1'b0;
+end 
+// data1[ 9 ]
+initial
+begin
+	data1[9] = 1'b0;
+end 
+// data1[ 8 ]
+initial
+begin
+	data1[8] = 1'b0;
+end 
+// data1[ 7 ]
+initial
+begin
+	data1[7] = 1'b0;
+end 
+// data1[ 6 ]
+initial
+begin
+	data1[6] = 1'b0;
+end 
+// data1[ 5 ]
+initial
+begin
+	data1[5] = 1'b0;
+end 
+// data1[ 4 ]
+initial
+begin
+	data1[4] = 1'b0;
+end 
+// data1[ 3 ]
+initial
+begin
+	data1[3] = 1'b0;
+end 
+// data1[ 2 ]
+initial
+begin
+	data1[2] = 1'b0;
+end 
+// data1[ 1 ]
+initial
+begin
+	data1[1] = 1'b0;
+end 
+// data1[ 0 ]
+initial
+begin
+	data1[0] = 1'b0;
+end 
+// data2[ 31 ]
+initial
+begin
+	data2[31] = 1'b0;
+end 
+// data2[ 30 ]
+initial
+begin
+	data2[30] = 1'b0;
+end 
+// data2[ 29 ]
+initial
+begin
+	data2[29] = 1'b0;
+end 
+// data2[ 28 ]
+initial
+begin
+	data2[28] = 1'b0;
+end 
+// data2[ 27 ]
+initial
+begin
+	data2[27] = 1'b0;
+end 
+// data2[ 26 ]
+initial
+begin
+	data2[26] = 1'b0;
+end 
+// data2[ 25 ]
+initial
+begin
+	data2[25] = 1'b0;
+end 
+// data2[ 24 ]
+initial
+begin
+	data2[24] = 1'b0;
+end 
+// data2[ 23 ]
+initial
+begin
+	data2[23] = 1'b0;
+end 
+// data2[ 22 ]
+initial
+begin
+	data2[22] = 1'b0;
+end 
+// data2[ 21 ]
+initial
+begin
+	data2[21] = 1'b0;
+end 
+// data2[ 20 ]
+initial
+begin
+	data2[20] = 1'b0;
+end 
+// data2[ 19 ]
+initial
+begin
+	data2[19] = 1'b0;
+end 
+// data2[ 18 ]
+initial
+begin
+	data2[18] = 1'b0;
+end 
+// data2[ 17 ]
+initial
+begin
+	data2[17] = 1'b0;
+end 
+// data2[ 16 ]
+initial
+begin
+	data2[16] = 1'b0;
+end 
+// data2[ 15 ]
+initial
+begin
+	data2[15] = 1'b0;
+end 
+// data2[ 14 ]
+initial
+begin
+	data2[14] = 1'b0;
+end 
+// data2[ 13 ]
+initial
+begin
+	data2[13] = 1'b0;
+end 
+// data2[ 12 ]
+initial
+begin
+	data2[12] = 1'b0;
+end 
+// data2[ 11 ]
+initial
+begin
+	data2[11] = 1'b0;
+end 
+// data2[ 10 ]
+initial
+begin
+	data2[10] = 1'b0;
+end 
+// data2[ 9 ]
+initial
+begin
+	data2[9] = 1'b0;
+end 
+// data2[ 8 ]
+initial
+begin
+	data2[8] = 1'b0;
+end 
+// data2[ 7 ]
+initial
+begin
+	data2[7] = 1'b0;
+end 
+// data2[ 6 ]
+initial
+begin
+	data2[6] = 1'b0;
+end 
+// data2[ 5 ]
+initial
+begin
+	data2[5] = 1'b0;
+end 
+// data2[ 4 ]
+initial
+begin
+	data2[4] = 1'b0;
+end 
+// data2[ 3 ]
+initial
+begin
+	data2[3] = 1'b0;
+end 
+// data2[ 2 ]
+initial
+begin
+	data2[2] = 1'b0;
+end 
+// data2[ 1 ]
+initial
+begin
+	data2[1] = 1'b0;
+end 
+// data2[ 0 ]
+initial
+begin
+	data2[0] = 1'b0;
+end 
+endmodule
+

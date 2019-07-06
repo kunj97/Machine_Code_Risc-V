@@ -1,0 +1,16 @@
+	addi x20,x0,-5
+
+Loop: 
+
+	//beq x20,x0,exit
+	//add x21,x21,x20
+	//addi x20,x20,-1
+	//bge x20,x0,Loop 
+	
+	beq x20,x0,exit
+	add x21,x21,x20
+	addi x20,x20,1
+	blt x20,x0,Loop 
+	
+
+exit: 

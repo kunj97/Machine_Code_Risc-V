@@ -1,0 +1,42 @@
+//Lab D Part 1
+
+addi	x2,x0,1600 
+ecall	x6,x0,5
+add	x10,x6,x0
+addi 	x2,x2,-8
+
+sd 	x6,0(x2)
+jal 	x1, myswap 
+ld 	x6,0(x2)
+addi 	x2,x2,8 
+
+ecall 	x0,x10,2 
+ecall 	x0,x6,2 
+
+ORG 96 
+
+myswap: 
+
+addi 	x2,x2,-8
+sd 	x8,0(x2)
+addi 	x5,x0,255
+and 	x6,x10,x5
+srai 	x7,x10,8
+and 	x7,x7,x5
+srai 	x8,x10,16
+slli 	x8,x8,8
+or 	x8,x8,x6
+slli 	x8,x8,8
+or 	x8,x8,x7
+add 	x10,x0,x8
+ld 	x8,0(x2)
+addi 	x2,x2,8
+jalr 	x0,0(x1) 
+
+
+
+
+
+
+
+

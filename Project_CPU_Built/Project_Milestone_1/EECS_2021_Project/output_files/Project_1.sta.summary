@@ -1,0 +1,21 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 125C Model Minimum Pulse Width 'ALUenable'
+Slack : -0.538
+TNS   : -24.693
+
+Type  : Slow 1100mV -40C Model Minimum Pulse Width 'ALUenable'
+Slack : -0.538
+TNS   : -25.788
+
+Type  : Fast 1100mV 125C Model Minimum Pulse Width 'ALUenable'
+Slack : -0.075
+TNS   : -2.356
+
+Type  : Fast 1100mV -40C Model Minimum Pulse Width 'ALUenable'
+Slack : -0.089
+TNS   : -2.800
+
+------------------------------------------------------------

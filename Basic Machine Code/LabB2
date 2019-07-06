@@ -1,0 +1,7 @@
+main:
+
+ori x8,x0,12
+
+ori x9,x8,1536
+
+xori x10,x9,255 

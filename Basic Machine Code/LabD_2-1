@@ -1,0 +1,31 @@
+// Lab D 
+
+addi	x3,x0,3	 		//checks if it's 3
+ecall 	x6,x0,5			//Reads register to x6	
+add 	x10,x0,x6		//It cops the input
+addi 	x2,x2,-8		//Makes room for register x6
+sd	x6,0(x2)		//Stores the value of x6
+jal 	x1,recs			//jumps to recs founction
+ld	x6,0(x2) 		//It loads the value
+addi 	x2,x2,8			//It pops the rejister
+ecall	x0,x11,0		//call the x0
+
+ORG 48
+
+recs: 
+
+slli	x11,x11,1 		//Shifts to the left for mul
+addi 	x11,x11,1		//Adds the value for Int
+addi 	x2,x2,-8		//Makes the room for register 
+sd	x11,0(x2)		//Stores the value for next step 
+bge	x3,x10,exit		//Checks if its greater then 
+ld	x6,0(x2)		//It loads the value
+addi	x2,x2,8			//It pops the value
+addi	x10,x10,-2		//It subtracts to value
+beq	x0,x0,recs		//Check if its equal to 
+
+exit:
+jalr	x0,0(x1)
+
+
+

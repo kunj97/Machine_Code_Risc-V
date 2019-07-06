@@ -1,0 +1,22 @@
+//LabD Kunj Patel 
+
+MC: 
+
+ecall	x5,x0,5		//Reads register to x5	 
+addi 	x10,x0,0		//Final answer to x10
+jal 	x1,recs		//Jumps and links to recs
+ecall 	x0,x10,0		//Will output the orginal value 
+
+ORG 32			//Register for min bits needed 
+
+recs: 			//My function for recursion 
+	
+addi 	x2,x0,3		//The value off i <= 3 
+add 	x10,x10,x10		//This is an wasier way to Mupility 
+addi 	x10,x10,1		//This adds the founction by 1 
+bge 	x2,x5,exit 		//This checks if anything is greater then x5 which will exit
+addi 	x5,x5,-2 		//This is the main recursion method (i-2)
+beq 	x0,x0,recs 		//This is the loop for interation for recursion 
+
+exit:
+jalr 	x0,0(x1)		//This jumps the regiter back to x1
